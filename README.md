@@ -13,10 +13,13 @@ conda activate miccaf
 ## 2.Install the required packages.
 
 ```bash
-torch == 2.3.0+cu121
-timm == 0.9.8
-torchvision == 0.18.0
-numpy == 1.24.3
+python==3.8.0
+pandas=2.0.3
+torch==2.3.1
+matplotlib=3.7.1
+torchvision==0.18.1
+scikit-survival==0.22.2
+opencv-python=4.10.0.84
 
 ## or directly install environment by yaml file.
 
