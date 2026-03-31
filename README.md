@@ -20,6 +20,7 @@ matplotlib=3.7.1
 torchvision==0.18.1
 scikit-survival==0.22.2
 opencv-python=4.10.0.84
+...
 
 ## or directly install environment by yaml file.
 
