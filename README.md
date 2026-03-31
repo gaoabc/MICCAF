@@ -7,7 +7,7 @@ Multimodal Information Compression, Completion, and Adaptive Fusion for Cancer S
 ## 1. Create a new conda environment.
 
 ```bash
-conda create -n miccaf python=3.10
+conda create -n miccaf python=3.8.0
 conda activate miccaf
 ```
 ## 2.Install the required packages.
