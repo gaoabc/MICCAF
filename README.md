@@ -9,7 +9,7 @@ Multimodal Information Compression, Completion, and Adaptive Fusion for Cancer S
 ```bash
 conda create -n miccaf python=3.10
 conda activate miccaf
-
+```
 ## 2.Install the required packages.
 
 ```bash
@@ -21,8 +21,9 @@ torchvision==0.18.1
 scikit-survival==0.22.2
 opencv-python=4.10.0.84
 ...
-
+```
 ## or directly install environment by yaml file.
 
 ```bash
 conda create -n miccaf -f requirements.yaml
+```
