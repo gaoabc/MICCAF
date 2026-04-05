@@ -51,9 +51,9 @@ def build_model(config, dataset: ProcessedMultimodalDataset) -> MICCAFModel:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', type=str, required=True)
-    parser.add_argument('--data-path', type=str, required=True)
-    parser.add_argument('--output-dir', type=str, required=True)
+    parser.add_argument('--config', type=str, default='/mnt/data2/home/Public/config/config.yaml')
+    parser.add_argument('--data-path', type=str, default='/mnt/data2/home/Public/datas/')
+    parser.add_argument('--output-dir', type=str, default='/mnt/data2/home/Public/results/')
     return parser.parse_args()
 
 
