@@ -9,9 +9,9 @@ from miccaf.preprocessing import process_raw_dataset
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', type=str, required=True)
-    parser.add_argument('--raw-path', type=str, required=True)
-    parser.add_argument('--output-path', type=str, required=True)
+    parser.add_argument('--config', type=str, default='/mnt/data2/home/Public/config/config.yaml')
+    parser.add_argument('--raw-path', type=str,default='/mnt/data2/home/Public/rawpath/')
+    parser.add_argument('--output-path', type=str, default='/mnt/data2/home/Public/results/')
     return parser.parse_args()
 
 
