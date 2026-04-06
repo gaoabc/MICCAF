@@ -17,11 +17,11 @@ from train import build_model
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', type=str, required=True)
-    parser.add_argument('--data-path', type=str, required=True)
-    parser.add_argument('--checkpoint', type=str, required=True)
-    parser.add_argument('--sample-index', type=int, required=True)
-    parser.add_argument('--output-json', type=str, default='')
+    parser.add_argument('--config', type=str, default='/mnt/data2/home/Public/config/config.yaml')
+    parser.add_argument('--data-path', type=str, default='/mnt/data2/home/Public/datas/')
+    parser.add_argument('--checkpoint', type=str, default='/mnt/data2/home/Public/results/best.pt')
+    parser.add_argument('--sample-index', type=int, default='0')
+    parser.add_argument('--output-json', type=str, default='/mnt/data2/home/Public/results/output_json/')
     return parser.parse_args()
 
 
