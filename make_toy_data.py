@@ -63,7 +63,7 @@ def make_toy_dataset(output_dir: str, n_samples: int = 96, pathology_dim: int = 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument('--output-dir', type=str, required=True)
+    parser.add_argument('--output-dir', type=str, default='/mnt/data2/home/Public/results/')
     parser.add_argument('--n-samples', type=int, default=96)
     parser.add_argument('--pathology-dim', type=int, default=64)
     parser.add_argument('--gene-dim', type=int, default=256)
