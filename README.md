@@ -28,3 +28,6 @@ opencv-python=4.10.0.84
 ```bash
 conda create -n miccaf -f requirements.yaml
 ```
+# Acknowledgements
+Huge thanks to the authors of following open-source projects:
+- [CLAM](https://github.com/mahmoodlab/CLAM)、[PLIP](https://github.com/PathologyFoundation/plip)、[Patch-GCN](https://github.com/mahmoodlab/Patch-GCN)
