@@ -1,33 +1,4 @@
 # MICCAF
-## Multimodal Information Compression, Completion, and Adaptive Fusion for Cancer Survival Prediction
+## This repository is temporarily private for ongoing follow-up research. The full source code will be fully open-sourced here in the near future once our extended research is finished. Stay tuned for updates!
 
-# Data source
-[https://portal.gdc.cancer.gov/](https://portal.gdc.cancer.gov/)
-# Requirements
 
-## 1. Create a new conda environment.
-
-```bash
-conda create -n miccaf python=3.8.0
-conda activate miccaf
-```
-## 2.Install the required packages.
-
-```bash
-python==3.8.0
-pandas=2.0.3
-torch==2.3.1
-matplotlib=3.7.1
-torchvision==0.18.1
-scikit-survival==0.22.2
-opencv-python=4.10.0.84
-...
-```
-## or directly install environment by yaml file.
-
-```bash
-conda create -n miccaf -f requirements.yaml
-```
-# Acknowledgements
-Huge thanks to the authors of following open-source projects:
-- [CLAM](https://github.com/mahmoodlab/CLAM)、[PLIP](https://github.com/PathologyFoundation/plip)、[Patch-GCN](https://github.com/mahmoodlab/Patch-GCN)
